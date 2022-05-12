@@ -99,3 +99,54 @@ footer{
     height: 50px;
     text-align: center;
 }
+.h1__about{
+    text-align: center;
+    margin: 0 auto 5vh;
+}
+.p__about{
+    text-indent: 30px;
+    text-align: justify;
+    line-height: normal;
+}
+.ul__about{
+    
+    
+}
+.ul__head{
+    line-height: 3vh;
+    margin: 0;
+    padding-bottom: 3vh;
+    text-align: center;
+    font-size: x-large;
+}
+.signature{
+    color: darkorange;
+    text-align: end;
+}
+.videobox{
+    border-radius: 20px;
+    width: 15vw;
+    padding-left: 10px;
+}
+.col__listvideo{
+    padding: 0 25px;
+
+}
+.container__about{
+    margin-top: 0;
+}
+
+.col__about_images{
+    margin-top: 7vh;
+}
+.about__images{
+    border-radius: 30px;
+    border-radius: 10px;
+    border: 3px solid #FEA116;
+}
+.p__contacts{
+    text-align: center;
+    justify-content: center;
+    font-size: 3vh;
+    margin: 0 10vw;
+}
