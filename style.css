@@ -1,3 +1,7 @@
+html{
+    margin: 0;
+    padding: 0px;
+}
 body{
         
         background-image: url(54Thirty_Pattern.png) ;
@@ -10,7 +14,7 @@ body{
     --bs-primary:#FEA116!important;
 }
 .header{
-    width: 550px;
+    /* width: 550px; убрал т.к вылазит на мобильных, зачем добавлял изначально нужно выяснять */
     display: block;
     text-align: center;
     margin: auto;
@@ -75,7 +79,8 @@ font-size: 22px;
     display: grid;
     justify-items: center;
     justify-content: center;
-    grid-template-columns: repeat(3, auto);
+    /* grid-template-columns: repeat(3, auto);  убрал т.к выходит за рамки мобильника, добавил ниже*/
+    grid-template-columns: repeat(auto);
     grid-template-rows: repeat(3, auto);
     row-gap: 40px;
     column-gap: 25px;
