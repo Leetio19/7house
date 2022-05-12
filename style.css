@@ -1,11 +1,13 @@
 html{
     margin: 0;
     padding: 0px;
+    overflow-x: hidden;/*убираем  горизонтальный скролл на мобильных устройствах */
 }
 body{
         
         background-image: url(54Thirty_Pattern.png) ;
         background-size: 50%;
+         overflow-x: hidden; /*убираем  горизонтальный скролл на мобильных устройствах */
         
       
 }
