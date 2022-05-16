@@ -77,15 +77,17 @@ font-size: 22px;
     margin-left: auto;
 }
 .containergrid{
-    padding-top: 50px;
+    /* padding-top: 50px; */
     display: grid;
-    justify-items: center;
+    /* grid-template-columns: min-content; */
+    /* justify-items: center;*/
     justify-content: center;
-    /* grid-template-columns: repeat(3, auto);  убрал т.к выходит за рамки мобильника, добавил ниже*/
-    grid-template-columns: repeat(auto);
-    grid-template-rows: repeat(3, auto);
-    row-gap: 40px;
-    column-gap: 25px;
+    /* justify-content: space-evenly; */
+    /* grid-template-columns: repeat(3, auto);  убрал т.к выходит за рамки мобильника, добавил ниже */
+     grid-template-columns: repeat(1fr 1fr 1fr);
+     grid-template-rows: repeat(1fr)
+    /* row-gap: 40px;
+    column-gap: 25px; */
     
 }
 .card-img-top {
