@@ -84,10 +84,11 @@ font-size: 22px;
     justify-content: center;
     /* justify-content: space-evenly; */
     /* grid-template-columns: repeat(3, auto);  убрал т.к выходит за рамки мобильника, добавил ниже */
-     grid-template-columns: repeat(1fr 1fr 1fr);
-     grid-template-rows: repeat(1fr)
+     /* grid-template-columns: repeat(1fr 1fr 1fr);
+     grid-template-rows: repeat(1fr) */
     /* row-gap: 40px;
     column-gap: 25px; */
+    grid-template-columns:repeat(auto-fill, minmax(350px, 1fr))
     
 }
 .card-img-top {
@@ -175,10 +176,12 @@ iframe{
     height: 80vh;
 }
 
-@media screen {
+
+@media only screen and (max-width: 1169px) {
     .videobox{
         border-radius: 20px;
-        width: 80vw;
+        width: 60vw;
+        height: 90vh;
         padding-left: 10px;}
     
 }
