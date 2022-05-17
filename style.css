@@ -33,6 +33,14 @@ padding-left: 50px;
     display: flex;
     justify-content: space-between;
 }
+.nav-item{
+    padding: 0 10px;
+    transition: all 1s;
+}
+.nav-item:hover{
+    transform: scale(1.2);
+    
+}
 .tel{
     padding-right: 40px;
     text-decoration: none;
@@ -95,6 +103,10 @@ font-size: 22px;
 }
 .card{
     margin: 0  auto;
+    transition: all 1s;
+}
+.card:hover{
+    transform: rotate(-3deg) ;
 }
 .card-img-top {
     width: 100%;
