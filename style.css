@@ -77,6 +77,7 @@ font-size: 22px;
     margin-left: auto;
 }
 .containergrid{
+    
     /* padding-top: 50px; */
     display: grid;
     /* grid-template-columns: min-content; */
@@ -88,8 +89,12 @@ font-size: 22px;
      grid-template-rows: repeat(1fr) */
     /* row-gap: 40px;
     column-gap: 25px; */
-    grid-template-columns:repeat(auto-fill, minmax(350px, 1fr))
+    grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));
+    justify-items: stretch;
     
+}
+.card{
+    margin: 0  auto;
 }
 .card-img-top {
     width: 100%;
