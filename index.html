@@ -54,7 +54,8 @@
             <button type="button" class="btn btn-warning">Смотреть номера</button>
           </div>
           <div class="col-md-10 mx-auto col-lg-5">
-            <form class="p-4 p-md-5 border rounded-3 bg-light">
+            <!-- <form class="p-4 p-md-5 border rounded-3 bg-light">
+               Форма заглушка емайл 
               <div class="form-floating mb-3">
                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                 <label for="floatingInput">Email address</label>
@@ -71,7 +72,42 @@
               <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
               <hr class="my-4">
               <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
-            </form>
+            </form> -->
+            <!-- Форма бронирования виджет -->
+            <div class="left" id="_bn_widget_">
+              <a href="http://bnovo.ru/" id="_bnovo_link_" target="_blank">Bnovo</a>
+           </div>
+           <script src="//widget.reservationsteps.ru/js/bnovo.js"></script>
+           <script type="text/javascript">
+             Bnovo_Widget.init(function(){
+               Bnovo_Widget.open('_bn_widget_', {
+                   type: "vertical",
+                   uid: "a4c5e296-f72d-4ea2-9888-550121f95624",
+                   lang: "ru",
+                   width: "230",
+                   background: "#ffffff",
+                   bg_alpha: "100",
+                   padding: "18",
+                   border_radius: "4",
+                   font_type: "arial",
+                   font_size: "16",
+                   title_color: "#222222",
+                   title_size: "18",
+                   inp_color: "#222222",
+                   inp_bordhover: "#3796e5",
+                   inp_bordcolor: "#cccccc",
+                   inp_alpha: "100",
+                   btn_background: "#f8f8f8",
+                   btn_background_over: "#ffffff",
+                   btn_textcolor: "#222222",
+                   btn_textover: "#222222",
+                   btn_bordcolor: "#cccccc",
+                   btn_bordhover: "#cccccc",
+                   text_concierge: "Получи скидку через Bnovo Concierge"
+               });
+             });
+           </script>
+           
           </div>
         </div>
       </div>
