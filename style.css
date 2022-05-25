@@ -70,6 +70,7 @@ padding-left: 50px;
     background-color: rgba(255, 255, 255, 0.658);
     background-clip: content-box;
     padding: 0 50px;
+    /* max-height: fit-content; */
    }
  .t2{
 font-size: 22px;
@@ -202,6 +203,11 @@ footer{
     flex-direction: column;
     justify-content: space-around;  
       
+}
+
+.col-md-10{
+    padding-top: 4vh;
+
 }
 iframe{
     width: 100%;
